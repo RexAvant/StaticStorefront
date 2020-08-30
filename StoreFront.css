@@ -1,0 +1,95 @@
+.wrapper{
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    height: 1024px;
+    background-image: linear-gradient(navy,lightblue);
+    margin: 5px 5px 5px 5px;
+    padding: 50px;
+}
+.rooms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+.room1{
+    border-width: 5px;
+    border-style: thin;
+    border-color: black;
+}
+.room2{
+    border-width: 5px;
+    border-style: thin;
+    border-color: black;
+}
+.room3{
+    border-width: 5px;
+    border-style: thin;
+    border-color: black;
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    border-width: thick;
+    border-style: groove;
+    border-color: black;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: small;
+}
+.Descriptions{display: flex;
+    flex-direction: row;
+position: relative;
+bottom: 125px;
+
+}
+.aDescription{
+    width: 150px;
+ float: inline-start;
+ position: relative;
+ top: 125px;
+ left: 135px;
+ display: flex;
+ margin: 1em 1em 1em 1em;
+ padding: 1em 1em 1em 1em;
+ border: black solid 5px
+ 
+}
+
+.bDescription{
+    width: 150px;
+ float: center;
+ position: relative;
+ top: 125px;
+ left: 325px;
+ display: flex;
+ 
+ margin: 1em 1em 1em 1em;
+ padding: 1em 1em 1em 1em;
+ border: black solid 5px
+ 
+}
+.cDescription{
+   width: 150px;
+ float: inline-end;
+ position: relative;
+ top: 125px;
+ left: 525px;
+ display: flex;
+ justify-content: right;
+ 
+ margin: 1em 1em 1em 1em;
+ padding: 1em 1em 1em 1em;
+ border: black solid 5px
+}
